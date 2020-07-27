@@ -1,0 +1,23 @@
+{
+    "T_student": 5,
+    "augtype": "cutmixkd",
+    "batch_size": 128,
+    "device": "cuda",
+    "epochs": 200,
+    "lambda_student": 0.5,
+    "learning_rate": 0.1,
+    "modes": [
+        "nokd"
+    ],
+    "momentum": 0.9,
+    "num_classes": 10,
+    "optim": "sgd",
+    "results_dir": "<object>",
+    "sched": "multisteplr",
+    "student_name": "resnet8",
+    "t_checkpoint": "pretrained/resnet26_cifar10.pth",
+    "teacher_name": "resnet26",
+    "test_loader": "<object>",
+    "train_loader": "<object>",
+    "weight_decay": 0.0005
+}

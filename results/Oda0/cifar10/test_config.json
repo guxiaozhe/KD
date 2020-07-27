@@ -1,0 +1,23 @@
+{
+    "T_student": 5,
+    "batch_size": 128,
+    "device": "cpu",
+    "epochs": 1,
+    "lambda_student": 0.5,
+    "learning_rate": 0.1,
+    "modes": [
+        "ikd,",
+        "kd"
+    ],
+    "momentum": 0.9,
+    "num_classes": 10,
+    "optim": "sgd",
+    "results_dir": "<object>",
+    "sched": "multisteplr",
+    "student_name": "resnet8",
+    "t_checkpoint": "pretrained/resnet18_cifar10.pth",
+    "teacher_name": "resnet18",
+    "test_loader": "<object>",
+    "train_loader": "<object>",
+    "weight_decay": 0.0005
+}
